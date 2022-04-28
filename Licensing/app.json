@@ -11,13 +11,18 @@
     "url":  "",
     "logo":  "",
     "dependencies":  [
-
+                         {
+                             "id":  "ad529cbb-1f6a-4053-8869-31aaad9e39a1",
+                             "publisher":  "Contoso",
+                             "name":  "common",
+                             "version":  "1.0.0.0"
+                         }
                      ],
     "screenshots":  [
 
                     ],
     "platform":  "1.0.0.0",
-    "application":  "19.0.0.0",
+    "application":  "18.0.0.0",
     "idRanges":  [
                      {
                          "from":  60000,
