@@ -8,7 +8,7 @@ on:
         required: false
         default: '.'
       versionNumber:
-        description: New Version Number (Major.Minor)
+        description: Updated Version Number. Use Major.Minor for absolute change, use +Major.Minor for incremental change.
         required: true
       directCommit:
         description: Direct COMMIT (Y/N)
@@ -25,7 +25,7 @@ defaults:
 
 jobs:
   Initialization:
-    runs-on: [ windows-latest ]
+    runs-on: [ bc-build ]
     outputs:
       telemetryScopeJson: ${{ steps.init.outputs.telemetryScopeJson }}
     steps:
@@ -39,7 +39,7 @@ jobs:
           eventId: "DO0096"
 
   Update:
-    runs-on: [ windows-latest ]
+    runs-on: [ bc-build ]
     needs: [ Initialization ]
 
     steps:
@@ -53,7 +53,7 @@ jobs:
   
   PostProcess:
     if: always()
-    runs-on: [ windows-latest ]
+    runs-on: [ bc-build ]
     needs: [ Initialization, Update ]
     steps:
       - name: Checkout
