@@ -1,7 +1,6 @@
 {
   "type": "PTE",
   "templateUrl": "https://github.com/freddydk/AL-Go@nuget",
-  "runs-on": "bc-build",
   "bcContainerHelperVersion": "preview",
   "templateSha": "8a69beb3024dcb37231864e885b91d00004eee73"
 }
