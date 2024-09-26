@@ -1,6 +1,6 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/freddydk/AL-Go@nuget",
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@preview",
   "bcContainerHelperVersion": "preview",
-  "templateSha": "8a69beb3024dcb37231864e885b91d00004eee73"
+  "templateSha": "becb26e1f895fb75145bbc10535afb19c09bff5c"
 }
