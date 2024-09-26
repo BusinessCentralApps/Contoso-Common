@@ -3,5 +3,5 @@
   "templateUrl": "https://github.com/freddydk/AL-Go@nuget",
   "runs-on": "bc-build",
   "bcContainerHelperVersion": "preview",
-  "templateSha": "679d5cf17e51b1cd558453f429df6e59bf2ce95c"
+  "templateSha": "8a69beb3024dcb37231864e885b91d00004eee73"
 }
