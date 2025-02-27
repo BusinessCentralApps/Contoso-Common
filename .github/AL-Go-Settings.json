@@ -1,6 +1,6 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/businesscentralapps/AL-Go@main",
-  "templateSha": "e753d87b36e9d5929fbd0cd6f893d53f87d00242",
+  "templateUrl": "https://github.com/freddydk/AL-Go@incbug",
+  "templateSha": "af5cd6fb59e6724ea775bbf1513e530b47e52999",
   "GhTokenWorkflowSecretName": "GhAppTokenWorkflow"
 }
