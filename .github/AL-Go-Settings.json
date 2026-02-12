@@ -2,5 +2,6 @@
   "type": "PTE",
   "templateUrl": "https://github.com/freddydk/AL-Go@internaltemplate",
   "templateSha": "7eccfda0c99c3ae771fa201bb6ad32e89352aa63",
-  "GhTokenWorkflowSecretName": "GhAppTokenWorkflow"
+  "GhTokenWorkflowSecretName": "GhAppTokenWorkflow",
+  "PullRequestTrigger": "pull_request"
 }
